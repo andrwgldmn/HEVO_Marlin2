@@ -40,11 +40,11 @@
 //
 // TMC StallGuard DIAG pins
 //
-#define X_DIAG_PIN                         P1_29  // X-STOP
-#define Y_DIAG_PIN                         P1_28  // Y-STOP
-#define Z_DIAG_PIN                         P1_27  // Z-STOP
-#define E0_DIAG_PIN                        P1_26  // E0DET
-#define E1_DIAG_PIN                        P1_25  // E1DET
+//#define X_DIAG_PIN                         P1_29  // X-STOP
+//#define Y_DIAG_PIN                         P1_28  // Y-STOP
+//#define Z_DIAG_PIN                         P1_27  // Z-STOP
+//#define E0_DIAG_PIN                        P1_26  // E0DET
+//#define E1_DIAG_PIN                        P1_25  // E1DET
 
 //
 // Limit Switches
@@ -395,3 +395,10 @@
 // Include common SKR pins
 //
 #include "pins_BTT_SKR_common.h"
+
+//andrwgldmn
+// Limit Switches
+//
+#define Z_MIN_PIN P1_27
+#define Y_MIN_PIN P1_28
+#define X_MIN_PIN P1_29
