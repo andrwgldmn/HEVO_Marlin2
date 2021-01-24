@@ -399,6 +399,7 @@
 //andrwgldmn
 // Limit Switches
 //
-#define Z_MAX_PIN P1_27
+#define X_MAX_PIN P1_25
+#define Z_MAX_PIN P1_26
 #define Y_MIN_PIN P1_28
 #define X_MIN_PIN P1_29
