@@ -472,9 +472,9 @@
   //#define DEFAULT_Kd 44.79
 
   //e3d v6 24V
-  //#define DEFAULT_Kp 32.59
-  //#define DEFAULT_Ki 3.57
-  //#define DEFAULT_Kd 74.35
+  #define DEFAULT_Kp 32.59
+  #define DEFAULT_Ki 3.57
+  #define DEFAULT_Kd 74.35
 
 #endif // PIDTEMP
 
