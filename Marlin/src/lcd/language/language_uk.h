@@ -78,23 +78,23 @@ namespace Language_uk {
   #else
     PROGMEM Language_Str MSG_SET_HOME_OFFSETS              = _UxGT("Встанов.зміщ.дому");
   #endif
-  PROGMEM Language_Str MSG_HOME_OFFSETS_APPLIED            = _UxGT("Зміщення прийняті");
-  PROGMEM Language_Str MSG_SET_ORIGIN                      = _UxGT("Встановити ноль");
+  PROGMEM Language_Str MSG_HOME_OFFSETS_APPLIED            = _UxGT("Зміщення збережені");
+  PROGMEM Language_Str MSG_SET_ORIGIN                      = _UxGT("Встановити нуль");
   #if PREHEAT_COUNT
     PROGMEM Language_Str MSG_PREHEAT_1                     = _UxGT("Нагрів ") PREHEAT_1_LABEL;
     PROGMEM Language_Str MSG_PREHEAT_1_H                   = _UxGT("Нагрів ") PREHEAT_1_LABEL " ~";
-    PROGMEM Language_Str MSG_PREHEAT_1_END                 = _UxGT("Нагрів ") PREHEAT_1_LABEL _UxGT(" сопло");
-    PROGMEM Language_Str MSG_PREHEAT_1_END_E               = _UxGT("Нагрів ") PREHEAT_1_LABEL _UxGT(" сопло ~");
-    PROGMEM Language_Str MSG_PREHEAT_1_ALL                 = _UxGT("Нагрів ") PREHEAT_1_LABEL _UxGT(" все");
-    PROGMEM Language_Str MSG_PREHEAT_1_BEDONLY             = _UxGT("Нагрів ") PREHEAT_1_LABEL _UxGT(" стіл");
+    PROGMEM Language_Str MSG_PREHEAT_1_END                 = _UxGT("Нагрів ") PREHEAT_1_LABEL _UxGT(" сопла");
+    PROGMEM Language_Str MSG_PREHEAT_1_END_E               = _UxGT("Нагрів ") PREHEAT_1_LABEL _UxGT(" сопла ~");
+    PROGMEM Language_Str MSG_PREHEAT_1_ALL                 = _UxGT("Нагрів ") PREHEAT_1_LABEL _UxGT(" всього");
+    PROGMEM Language_Str MSG_PREHEAT_1_BEDONLY             = _UxGT("Нагрів ") PREHEAT_1_LABEL _UxGT(" стола");
     PROGMEM Language_Str MSG_PREHEAT_1_SETTINGS            = _UxGT("Нагрів ") PREHEAT_1_LABEL _UxGT(" налашт");
 
     PROGMEM Language_Str MSG_PREHEAT_M                     = _UxGT("Нагрів $");
     PROGMEM Language_Str MSG_PREHEAT_M_H                   = _UxGT("Нагрів $ ~");
-    PROGMEM Language_Str MSG_PREHEAT_M_END                 = _UxGT("Нагрів $ сопло");
-    PROGMEM Language_Str MSG_PREHEAT_M_END_E               = _UxGT("Нагрів $ сопло ~");
-    PROGMEM Language_Str MSG_PREHEAT_M_ALL                 = _UxGT("Нагрів $ все");
-    PROGMEM Language_Str MSG_PREHEAT_M_BEDONLY             = _UxGT("Нагрів $ стіл");
+    PROGMEM Language_Str MSG_PREHEAT_M_END                 = _UxGT("Нагрів $ сопла");
+    PROGMEM Language_Str MSG_PREHEAT_M_END_E               = _UxGT("Нагрів $ сопла ~");
+    PROGMEM Language_Str MSG_PREHEAT_M_ALL                 = _UxGT("Нагрів $ всього");
+    PROGMEM Language_Str MSG_PREHEAT_M_BEDONLY             = _UxGT("Нагрів $ стола");
     PROGMEM Language_Str MSG_PREHEAT_M_SETTINGS            = _UxGT("Нагрів $ налашт");
   #endif
   PROGMEM Language_Str MSG_PREHEAT_CUSTOM                  = _UxGT("Нагрів Свій");
