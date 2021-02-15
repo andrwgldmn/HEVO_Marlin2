@@ -444,7 +444,7 @@
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
 // (Use MINTEMP for thermistor short/failure protection.)
-#define HEATER_0_MAXTEMP 250
+#define HEATER_0_MAXTEMP 260
 #define BED_MAXTEMP      100
 
 //===========================================================================
